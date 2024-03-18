@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\colliders">
+      <UniqueIdentifier>{baf23027-63cf-4f5f-aaa9-84c71ecafb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\processors">
+      <UniqueIdentifier>{bf7e2764-54ab-4f33-a708-f003bd91e048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entities">
+      <UniqueIdentifier>{1728aa5e-9659-4989-9649-5727666e8753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\colliders">
+      <UniqueIdentifier>{433f43b2-6a94-4133-8c31-425d16800055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\entities">
+      <UniqueIdentifier>{e29a4fb5-f370-4bad-9403-fd340e7cffd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\processors">
+      <UniqueIdentifier>{22070fcf-3eaf-4735-aab1-93ba3821855c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_processor.cpp">
+      <Filter>Source Files\processors</Filter>
+    </ClCompile>
+    <ClCompile Include="circle_collider.cpp">
+      <Filter>Source Files\processors</Filter>
+    </ClCompile>
+    <ClCompile Include="collider.cpp">
+      <Filter>Source Files\colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_processor.cpp">
+      <Filter>Source Files\processors</Filter>
+    </ClCompile>
+    <ClCompile Include="dot.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="movement_processor.cpp">
+      <Filter>Source Files\processors</Filter>
+    </ClCompile>
+    <ClCompile Include="processor.cpp">
+      <Filter>Source Files\processors</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle_collider.cpp">
+      <Filter>Source Files\colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="world.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_collider.h">
+      <Filter>Header Files\colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="collider.h">
+      <Filter>Header Files\colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle_collider.h">
+      <Filter>Header Files\colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_processor.h">
+      <Filter>Header Files\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="movement_processor.h">
+      <Filter>Header Files\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="processor.h">
+      <Filter>Header Files\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_processor.h">
+      <Filter>Header Files\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="dot.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
